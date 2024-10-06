@@ -4,7 +4,6 @@ const axios = require('axios');
 const app = express();
 const port = 3000;
 
-// Replace this with your AWS Lambda API Gateway Invoke URL
 const lambdaUrl = 'https://fac3t7w384.execute-api.ap-south-1.amazonaws.com/say';
 
 app.get('/say', async (req, res) => {
